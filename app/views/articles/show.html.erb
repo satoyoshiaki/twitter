@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>ツイート：</strong>
+  <%= @article.content %>
+</p>
+
+<%= link_to '編集', edit_article_path(@article) %> |
+<%= link_to 'タイムライン', articles_path %>
